@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: rgb(9, 6, 6);
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+}
