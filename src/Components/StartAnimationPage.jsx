@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 
 const StartAnimationPage = () => {
+  const array = [0, 1, 2, 3];
+  const reverseArray = [3, 2, 1, 0];
+
   const slideFromBottom = {
     hidden: { y: 1000 },
     visible: (i) => ({
