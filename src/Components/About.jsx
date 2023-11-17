@@ -5,7 +5,7 @@ const About = () => {
   return (
     <PageTransition>
       <div className="w-screen h-screen bg-pink-200 text-black z-[1000]">
-        About hello
+        About
         <Link to="/">Back to Home</Link>
       </div>
     </PageTransition>
